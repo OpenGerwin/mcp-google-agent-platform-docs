@@ -1,0 +1,117 @@
+# Vertex AI Generative AI — legacy source (archive)
+id: vertex-ai
+name: "Vertex AI Generative AI"
+short_name: "Vertex AI (legacy)"
+enabled: true
+
+base_url: "https://cloud.google.com/vertex-ai/generative-ai/docs"
+sitemap_url: "https://cloud.google.com/sitemap.xml"
+sitemap_filter: "/vertex-ai/generative-ai/docs/"
+
+sections:
+  overview:
+    name: "Overview"
+    path_prefixes:
+      - "/learn/overview"
+      - "/glossary"
+    description: "Platform overview and glossary"
+
+  start:
+    name: "Get Started"
+    path_prefixes:
+      - "/start/"
+    description: "Quickstarts, API keys, authentication, libraries"
+
+  models:
+    name: "Models"
+    path_prefixes:
+      - "/models/"
+    description: "Gemini, Imagen, Veo, Lyria models and tuning"
+
+  partner_models:
+    name: "Partner Models"
+    path_prefixes:
+      - "/partner-models/"
+    description: "Claude, Grok, Mistral, Llama"
+
+  open_models:
+    name: "Open Models"
+    path_prefixes:
+      - "/maas/"
+      - "/open-models/"
+      - "/model-garden/"
+    description: "DeepSeek, Qwen, Kimi and Model Garden"
+
+  capabilities:
+    name: "Capabilities"
+    path_prefixes:
+      - "/multimodal/"
+    description: "Text, image, video, audio, function calling, code execution"
+
+  prompt_design:
+    name: "Prompt Design"
+    path_prefixes:
+      - "/learn/prompts/"
+    description: "Prompt engineering strategies and templates"
+
+  grounding:
+    name: "Grounding"
+    path_prefixes:
+      - "/grounding/"
+      - "/url-context"
+    description: "Google Search, Maps, Vertex AI Search, RAG grounding"
+
+  rag_engine:
+    name: "RAG Engine"
+    path_prefixes:
+      - "/rag-engine/"
+    description: "Retrieval-Augmented Generation setup and management"
+
+  safety:
+    name: "Safety"
+    path_prefixes:
+      - "/learn/safety"
+      - "/learn/responsible"
+      - "/content-credentials"
+    description: "Safety filters, responsible AI, abuse monitoring"
+
+  deploy:
+    name: "Deploy & Scale"
+    path_prefixes:
+      - "/deploy/"
+      - "/provisioned-throughput/"
+      - "/standard-paygo"
+      - "/priority-paygo"
+      - "/flex-paygo"
+      - "/quotas"
+    description: "Provisioned throughput, pay-as-you-go, batch prediction"
+
+  embeddings:
+    name: "Embeddings"
+    path_prefixes:
+      - "/embeddings/"
+    description: "Text and multimodal embeddings"
+
+  live_api:
+    name: "Live API"
+    path_prefixes:
+      - "/live-api/"
+    description: "Real-time audio/video streaming with Gemini"
+
+  context_cache:
+    name: "Context Caching"
+    path_prefixes:
+      - "/context-cache/"
+    description: "Create, use, and manage context caches"
+
+  admin:
+    name: "Administration"
+    path_prefixes:
+      - "/access-control"
+      - "/networking"
+      - "/security-controls"
+      - "/control-model"
+      - "/enable-audit"
+      - "/prompt-sharing"
+      - "/retry-strategy"
+    description: "Access control, networking, audit logs, model observability"

@@ -1,0 +1,65 @@
+# Gemini Enterprise Agent Platform — primary source
+id: geap
+name: "Gemini Enterprise Agent Platform"
+short_name: "GEAP"
+enabled: true
+
+base_url: "https://docs.cloud.google.com/gemini-enterprise-agent-platform"
+sitemap_url: "https://docs.cloud.google.com/sitemap.xml"
+sitemap_filter: "/gemini-enterprise-agent-platform/"
+
+sections:
+  overview:
+    name: "Platform Overview"
+    path_prefixes:
+      - ""
+    description: "General platform overview and getting started"
+
+  studio:
+    name: "Agent Studio"
+    path_prefixes:
+      - "/agent-studio/"
+    description: "Visual agent builder, prompt engineering, model playground"
+
+  agents_build:
+    name: "Agents → Build"
+    path_prefixes:
+      - "/build/"
+      - "/agents/quickstart"
+    description: "Agent Platform Runtime, ADK, Agent Garden, RAG Engine, Vector Search"
+
+  agents_scale:
+    name: "Agents → Scale"
+    path_prefixes:
+      - "/scale/"
+    description: "Deploy agents, sessions, Memory Bank, Code Execution, streaming"
+
+  agents_govern:
+    name: "Agents → Govern"
+    path_prefixes:
+      - "/govern/"
+    description: "Agent Registry, policies, Agent Gateway, Model Armor, security"
+
+  agents_optimize:
+    name: "Agents → Optimize"
+    path_prefixes:
+      - "/optimize/"
+    description: "Observability, agent evaluation, quality alerts, prompt optimization"
+
+  models:
+    name: "Models"
+    path_prefixes:
+      - "/models/"
+    description: "Gemini, Imagen, Veo, Lyria, partner models, open models"
+
+  notebooks:
+    name: "Notebooks"
+    path_prefixes:
+      - "/notebooks/"
+    description: "Jupyter notebooks and tutorials"
+
+  troubleshooting:
+    name: "Troubleshooting"
+    path_prefixes:
+      - "/troubleshooting/"
+    description: "Runtime setup, agent creation, deployment troubleshooting"
