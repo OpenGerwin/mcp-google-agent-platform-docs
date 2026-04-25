@@ -42,8 +42,28 @@ Add to your `claude_desktop_config.json`:
 ```json
 {
   "mcpServers": {
-    "google-ai-docs": {
+    "google-agent-platform-docs": {
       "command": "mcp-google-agent-platform-docs"
+    }
+  }
+}
+```
+
+### Configure Antigravity (Google)
+
+Add to `~/.gemini/antigravity/mcp_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "google-agent-platform-docs": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/mcp-google-agent-platform-docs",
+        "run",
+        "mcp-google-agent-platform-docs"
+      ]
     }
   }
 }
@@ -56,7 +76,7 @@ Add to your MCP settings:
 ```json
 {
   "mcpServers": {
-    "google-ai-docs": {
+    "google-agent-platform-docs": {
       "command": "mcp-google-agent-platform-docs",
       "transport": "stdio"
     }
