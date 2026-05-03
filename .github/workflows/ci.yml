@@ -30,16 +30,16 @@ jobs:
           uv run python -c "
           from mcp_google_agent_platform_docs.server import mcp
           from mcp_google_agent_platform_docs.source import load_sources
-          from mcp_google_agent_platform_docs.cache import PageCache
+          from mcp_google_agent_platform_docs.cache import CacheManager
           from mcp_google_agent_platform_docs.discovery import StructureDiscovery
-          from mcp_google_agent_platform_docs.fetcher import DocFetcher
+          from mcp_google_agent_platform_docs.fetcher import PageFetcher
           from mcp_google_agent_platform_docs.search import SearchEngine
           from mcp_google_agent_platform_docs import config
           sources = load_sources()
           assert len(sources) == 2, f'Expected 2 sources, got {len(sources)}'
           assert 'geap' in sources
           assert 'vertex-ai' in sources
-          print(f'✅ All imports OK, {len(sources)} sources loaded')
+          print(f'All imports OK, {len(sources)} sources loaded')
           "
 
       - name: Verify CLI entrypoint
